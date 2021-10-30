@@ -34,8 +34,52 @@ nav ul {
         text-decoration:underline;
       }
 
+.kreis{
+        border-radius: 0px 0px 400px 400px;
+        background: #b63514;
+        margin-top: -10px;
+        width: 800px;
+        height: 450px; 
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+.portfolio{
+        font-size: 10em;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0px 20px 0px 20px;
+        
+    }
+    
+.loremipsum{
+        font-size: 4em;
+        font-weight: bold;
+        color: white;
+        float: right;
+        padding-right: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: -40px 85px 10px 320px;
+       
+    }
+    
+.impsum{
+        font-size: 1em;
+        color: white;
+        float: right;
+        margin: -10px 115px 10px 320px;
+       
+    }
+    
+a .fb{
+        width: 30px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 70%;
 
-
-
-
-
+    }
