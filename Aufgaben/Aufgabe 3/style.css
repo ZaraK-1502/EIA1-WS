@@ -1,11 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bg.png);
+}
+
 nav{
     width: 900px;
     margin-left:auto;
     margin-right: auto;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(bg.png);
-}
+nav ul {
+    list-style: none; 
+    background-color: black;
+    border: 5px solid;	
+    border-radius: 5px; 
+    width: 260px;
+    position: sticky; 
+    float: right;
+    }
+    nav li {
+        margin: 0.5em; 
+        background-color: black;
+        display: inline;
+      }
+      nav a {
+        text-decoration: none; 
+        font-weight: bold;
+        color: white; 
+      }
+      nav a:focus,
+      nav a:hover,
+      nav a:active {    
+        text-decoration:underline;
+      }
+
+
+
+
+
 
