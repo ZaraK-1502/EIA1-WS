@@ -100,6 +100,8 @@ button {
         height: 500px; 
         margin-left:auto;
         margin-right: auto;
+        box-shadow: 0 2px 8px rgba(200,200,200, 20);
+
     }
 
 
@@ -124,8 +126,13 @@ button {
    margin-right: auto;
 }
 
+img {
+    box-shadow: 0 4px 8px rgba(100,100,100, 100);
+}
+
 video {
     width: 800px;
+    box-shadow: 0 4px 8px rgba(100,100,100, 100);
 }
 
 
@@ -156,6 +163,13 @@ h3 {
     
 .fb{
         width: 25px;
+        display:block;
+        opacity: 95%;
+
+    }
+
+.fb:hover {
+        width: 30px;
         display:block;
         opacity: 100%;
 
