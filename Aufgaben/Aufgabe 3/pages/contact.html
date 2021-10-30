@@ -2,46 +2,54 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Aufgabe 2</title>
-<style>
-	h1 {
-		margin-left: 10px;
-		font-size: 72px;
-	}
+<title>Contact</title>
+<link rel="stylesheet" href="../style.css">
 
-	div {
-		margin-top: 5%;
-	}
-
-	img {
-		margin: 10px;
-		box-shadow: 0 4px 8px rgba(100,100,100, 100);
-	}
-    video {
-		margin: 10px;
-		box-shadow: 0 4px 8px rgba(100,100,100, 100);
-	}
-</style>
 </head>
+
 <body>
-	<h1>Contact</h1>
-    <div>
-        <a href="about.html"> About Me </a>
-		<a href="../home.html"> Portfolio </a>
-    </div>
+	<header>
+		<nav>
+			<ul>
 
-	<div>
-		<img src="../assets/Icons/insta.png " height="50px"   alt="">
-		<a> Instagram: @Zara_20.03</a>
+		<li><a href="../home.html">Portfolio</a></li>
+		<li><a href="about.html"> About Me </a></li>
+		<li><a href="contact.html" id="selected"> Contact </a></li>
+
+		</ul>
+		</nav>
+
+	<div class="head-container">
+	<h1 class="headline"> Portfolio</h1>
+	<section class="head-content"> 
+	<h2> Loremimpsum </h2>
+	<p class="head-text">Lorem ipsum dolor sit amet consectetur adipisicing<br>
+		elit. Facere tempore delectus porro mollitia alias ut<br>
+		eos quam fugit. Blanditiis quae laborum quia<br>
+		aperiam voluptatum explicabo!
+		 Rerum<br> neque quas animi facilis.</p>
+
+		 <a href="#"> <img src="../assets/images/icon_facebook.png" alt="Facebook" class="fb"> </a>
+		</section>
+
+	</div>
+	</header>
+    
+	<main>
+		<h3>CONTACT</h3>
 
 
-		<img src="../assets/Icons/mail.png " height="50px;" alt="">
-			<a> E-Mail: zara.izel.kocak@hs-furtwangen.de</a>
+	<div class="input-formular">
+		<form method="post">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <textarea rows="2" name="nachricht" placeholder="Nachricht"></textarea>
+            <p> Mit Absenden der Nachricht bestätige ich<br>
+            den <strong>Datenschutz</strong></p>
+            <button type="submit" name="absenden">absenden</button>
+        </form>
 	</div>
 
-
-
-
-
+</main>
 </body>
 </html>
