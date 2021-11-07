@@ -32,16 +32,16 @@ body{
 
 .Stern {
     position: absolute;
-    top: 200px;
-    left: 350px
+    top: 500px;
+    left: 550px
 
 }
 
 
 .Stern_hover {
     position: absolute;
-    top: 200px;
-    left: 350px;
+    top: 550px;
+    left: 1100px;
     opacity:0;
 }
 
