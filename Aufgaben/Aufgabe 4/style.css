@@ -1,0 +1,10 @@
+body{
+    background-image: url(assets/bg.png);
+}
+
+.postcard {
+    position: relative;
+    top: 200px;
+    left: 450px;
+
+}
