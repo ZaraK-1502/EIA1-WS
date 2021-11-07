@@ -1,0 +1,39 @@
+body{
+    background-image:url("assets/bg.png");
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.postcard-container{
+    width: 600px;
+	height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15pc;
+}
+
+.Row1Columns2 {
+    float: left;
+    width: 220px;
+    margin-top: 6pc;
+    margin-left: 4pc;
+	z-index: 1;
+}
+.Row2Columns3{
+    float: left;
+    width: 120px;
+    margin-left: 4pc;
+	z-index: 1;
+}
+
+.postcard{
+    position: absolute;
+	box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.46);
+    z-index: -1;
+}
+
+h1{
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 4pc;
+	z-index: 1;
+}
