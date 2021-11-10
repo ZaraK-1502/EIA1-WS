@@ -19,9 +19,8 @@ a {
    
 }
 .Ribbon {
-    position: absolute;
-    top: 14pc;
-    left: 25pc;
+    position: relative;
+    bottom: 25pc;
 }
 
 
