@@ -61,4 +61,4 @@ console.log('Die Emission von Austarlien ist:' + au18 + 'kg CO2');
 console.log('Relativ zur Gesamtemission der Welt verursacht Afrika damit' + AuWelt + '%');
 console.log('Fuer Afrika hat sich 2018 im Vergleich zu 2008 die Emission um' + Au08Au18pr + '% verändert.');
 console.log('2018 im Vergleich zu 2008 sind das' + Au08Au18kg + 'kg CO2');
-//# sourceMappingURL=typescript.js.map
+//# sourceMappingURL=emissionswerte.js.map
