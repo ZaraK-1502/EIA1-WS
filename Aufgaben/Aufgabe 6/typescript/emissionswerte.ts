@@ -1,60 +1,35 @@
-/* Afrika */
-var af08 : number = 1028;
-var af18 : number = 1235.5;
+/*Africa*/
+var countryAfrica: string = "Africa";
+var africa2008: number = 1028;
+var africa2018: number = 1235.5;
 
-var AfWelt : number = af18/welt*100;
-var Af08Af18pr : number = (af18/af08-1)*100;
-var Af08Af18kg  : number = af18-af08;
+/*Süd Amerika*/
+var countrySouthamerica: string ="Southamerica";
+var southAmerica2008: number = 1132.6;
+var southAmerica2018: number = 1261.5;
 
-/* Süd Amerika */
-var sa08 : number = 1132.6;
-var sa18 : number = 1261.5;
+/*Europa*/
+var countryEurope: string = "Europe";
+var europe2008: number = 4965.7;
+var europe2018: number = 4209.3;
 
-var SaWelt : number = sa18/welt*100;
-var Sa08Sa18pr : number = (sa18/sa08-1)*100;
-var Sa08Sa18kg  : number = sa18-sa08;
+/*Nord Amerika*/
+var countryNorthamerica: string = "Northamerica";
+var northAmerica2008: number = 6600.4;
+var northAmerica2018: number = 6035.6;
 
-/* Europa */
+/*Asien*/
+var countryAsia: string = "Asia";
+var asia2008: number = 12954.7;
+var asia2018: number = 16274.2;
 
-var eu08 : number = 4965.7;
-var eu18 : number = 4209.3;
+/*Australien*/
+var countryAustralia: string = "Australia";
+var australia2008: number = 1993;
+var australia2018: number = 2100.5;
 
-var EuWelt : number = eu18/welt*100;
-var Eu08Eu18pr : number = (eu18/eu08-1)*100;
-var Eu08Eu18kg  : number = eu18-eu08;
-
-/* Nord Amerika */
-
-var na08 : number = 6600.4;
-var na18 : number = 6035.6;
-
-var NaWelt : number = na18/welt*100;
-var Na08Na18pr : number = (na18/na08-1)*100;
-var Na08Na18kg  : number = na18-na08;
-
-/* Australien */
-
-var au08 : number = 1993;
-var au18 : number = 2100.5;
-
-var AuWelt : number = au18/welt*100;
-var Au08Au18pr : number = (au18/au08-1)*100;
-var Au08Au18kg  : number = au18-au08;
-
-/* Asien */
-
-var as08 : number = 12954.7;
-var as18 : number = 16274.1;
-
-var AsWelt : number = as18/welt*100;
-var As08As18pr : number = (as18/as08-1)*100;
-var As08As18kg  : number = as18-as08;
-
-
-/* Gesamte Welt */
-
-var welt : number = af18+sa18+eu18+na18+as18+au18;
-
+/*Gesamte Welt*/
+var all: number = africa2018 + southAmerica2018 + europe2018 + northAmerica2018 + asia2018 + australia2018;
 
 /*Berechnung der Emissionen*/
 function emission (countryName: string, emissionen2018: number, emission2008: number) {
