@@ -9,7 +9,7 @@ html, body {
 }
 
 nav {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 section {
@@ -42,4 +42,30 @@ footer p {
     background: #1bd5ee;
 }
 
+
+/* Hover */
+
+.europe:hover {
+    opacity: 30%;
+}
+
+.northamerica:hover {
+    opacity: 30%;
+}
+
+.southamerica:hover {
+    opacity: 30%;
+}
+
+.asia:hover {
+    opacity: 30%;
+}
+
+.africa:hover {
+    opacity: 30%;
+}
+
+.australia:hover {
+    opacity: 30%;
+}
 
