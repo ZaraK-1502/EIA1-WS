@@ -32,7 +32,7 @@ var australia2018: number = 2100.5;
 var all: number = africa2018 + southAmerica2018 + europe2018 + northAmerica2018 + asia2018 + australia2018;
 
 /*Berechnung der Emissionen*/
-function emission (countryName: string, emissionen2018: number, emission2008: number) {
+function emission (countryName: string, emissionen2018: number, emission2008: number): void {
     document.querySelector(".countryName").innerHTML = countryName;
     document.querySelector(".countryName1").innerHTML = countryName;
     document.querySelector(".emissionen2018").innerHTML = emissionen2018.toString();

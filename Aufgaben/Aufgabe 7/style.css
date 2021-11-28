@@ -1,0 +1,80 @@
+body{
+    background-color: #000;
+}
+
+.buttons{
+    margin: auto;
+    width: 462px;
+    border-radius: 10px;
+}
+
+#button {
+    height: 150px;
+    width: 150px;
+    border: 0px;
+    border-radius: 5px;
+    float: left;
+    margin: 2px;
+    border-style: solid;
+}
+
+#playbutton {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button1 {
+    background: linear-gradient(to bottom, #2eaacf, #02578f);
+    border-radius: 10px;
+    position: relative;
+}
+
+.button2 {
+    background: linear-gradient(to bottom, #2eaacf, #02578f);
+    border-radius: 10px;
+    position: relative;
+}
+
+.button3 {
+    background: linear-gradient(to bottom, #2eaacf, #02578f);
+    border-radius: 10px;
+    position: relative;
+}
+
+.button4 {
+    background-image: linear-gradient(to bottom, #f172d6, #e433bd);
+    border-radius: 10px;
+    position: relative;
+}
+
+.button5 {
+    background-image: linear-gradient(to bottom, #f172d6, #e433bd);
+    border-radius: 10px;
+    position: relative;
+}
+
+.button6 {
+    background-image: linear-gradient(to bottom, #f172d6, #e433bd);
+    border-radius: 10px;
+    position: relative;
+}
+
+.button7 {
+    background-image: linear-gradient(to bottom, #f172d6, #e433bd);
+    border-radius: 10px;
+    position: relative;
+}
+
+.button8 {
+    background-image: linear-gradient(to bottom, #e4a929, #C66601);
+    border-radius: 10px;
+    position: relative;
+}
+
+.button9 {
+    background-image: linear-gradient(to bottom, #e4a929, #C66601);
+    border-radius: 10px;
+    position: relative;
+}
