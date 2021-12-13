@@ -2,6 +2,7 @@ window.addEventListener("load", function () {
     const input = document.getElementById("toDo");
     const wrapper = document.getElementById("todoWrapper");
     let todoCount = 0;
+    
     input.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
             createToDo();
