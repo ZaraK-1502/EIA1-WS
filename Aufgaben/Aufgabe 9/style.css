@@ -1,6 +1,6 @@
 body {
     background-color: rgb(40, 42, 43);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1{
@@ -16,6 +16,11 @@ h2 {
     color: grey;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    width: 540px;
 }
 
 span {
@@ -67,9 +72,3 @@ input {
     opacity: 100%;
     color: grey;
 }
-
-.wrapper {
-    margin: auto;
-    width: 540px;
-}
-
