@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(40, 42, 43);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgba(240, 233, 233, 0.801);
+    font-size: 50px;
+    margin-bottom: -30px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: grey;
+    font-size: 25px;
+}
+
+span {
+    font-size: 25px;
+}
+
+input {
+    font-size: 18px;
+    width: 500px;
+    height: 40px;
+    border: 100px;
+    padding: 16px;
+    background-color: white;
+}
+
+.todoItem {
+   display: flex;
+    padding: 16px;
+    border: 0;
+    width: 500px;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 20px;
+    background-color: white;
+    align-items: center;
+}
+
+
+.checkBox {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.divLabel{
+    flex-grow: 2;
+}
+
+.fa-trash-alt{
+    flex-grow: 0;
+    opacity: 60%;
+    font-size: 30px;
+    color:white;
+    cursor: pointer;
+}
+
+.fa-trash-alt:hover {
+    cursor: pointer;
+    opacity: 100%;
+    color: grey;
+}
+
+.wrapper {
+    margin: auto;
+    width: 532px;
+}
+
