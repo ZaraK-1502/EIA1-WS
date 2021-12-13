@@ -8,12 +8,14 @@ h1{
     font-size: 50px;
     margin-bottom: -30px;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {
     text-align: center;
     color: grey;
     font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 span {
@@ -68,6 +70,6 @@ input {
 
 .wrapper {
     margin: auto;
-    width: 532px;
+    width: 540px;
 }
 
