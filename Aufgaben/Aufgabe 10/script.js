@@ -75,7 +75,7 @@ window.addEventListener("load", function () {
     }
     const artyom = new Artyom();
     artyom.addCommands({
-        indexes: ["Add Task *"],
+        indexes: ["erstelle Aufgabe *"],
         smart: true,
         action: function (i, wildcard) {
             createToDo(wildcard);
